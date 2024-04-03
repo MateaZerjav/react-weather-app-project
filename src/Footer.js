@@ -14,11 +14,19 @@ export default function Footer() {
           Matea Zerjav
         </a>
         , is{" "}
-        <a target="_blank" rel="noreferrer" href="/">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/MateaZerjav/react-weather-app-project"
+        >
           open-sourced on GitHub{" "}
         </a>
         and hosted
-        <a target="_blank" rel="noreferrer" href="/">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://master--stupendous-alpaca-4c667b.netlify.app/"
+        >
           {" "}
           Netlify.
         </a>
