@@ -25,7 +25,8 @@ export default function Footer() {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://master--stupendous-alpaca-4c667b.netlify.app/"
+          href="https://master--stupendous-alpaca-4c667b.netlify.app/
+          "
         >
           {" "}
           Netlify.
