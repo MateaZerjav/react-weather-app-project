@@ -1,6 +1,10 @@
 .Footer a {
   text-decoration: none;
+  color: rgb(166, 197, 245);
 }
 .Footer p {
   text-align: center;
+  padding: 50px;
+  color: rgba(0, 0, 0, 0.244);
+  font-size: 11px;
 }

@@ -21,7 +21,7 @@ export default function Footer() {
         >
           open-sourced on GitHub{" "}
         </a>
-        and hosted
+        and hosted on
         <a
           target="_blank"
           rel="noreferrer"

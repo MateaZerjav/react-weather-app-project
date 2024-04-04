@@ -1,4 +1,27 @@
 .container {
-  border: 1pt solid #dadde1;
+  color: #76797d;
+  border: 1pt solid rgb(166, 197, 245);
   border-radius: 10px;
+}
+.Weather {
+  margin: 0 auto;
+  max-width: 600px;
+}
+.Weather h2 {
+  font-size: 50px;
+}
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  list-style: none;
+}
+
+.Weather .temperature {
+  font-size: 35px;
+}
+.Weather .properties li {
+  text-align: center;
 }
