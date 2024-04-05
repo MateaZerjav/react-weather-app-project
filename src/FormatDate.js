@@ -12,10 +12,11 @@ export default function FormatDate(props) {
   ];
   let day = days[props.date.getDay()];
   let hour = props.date.getHours();
+  let min = props.date.getMinutes();
   if (hour < 10) {
     hour = `0${min}`;
   }
-  let min = props.date.getMinutes();
+
   if (min < 10) {
     min = `0${min}`;
   }
