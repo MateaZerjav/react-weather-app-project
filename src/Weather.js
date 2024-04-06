@@ -18,11 +18,11 @@ export default function Weather() {
       name: response.data.name,
       description: response.data.weather[0].description,
       precipitation: 50,
-      icon: "https://ssl.gstatic.com/onebox/weather/64/rain_s_cloudy.png",
+      icon: response.data.weather[0].icon,
     });
   }
   function search() {
-    const apiKey = "017d56650cd168d68067850318775d43";
+    const apiKey = "53f3bc1f5d348c44be3e3754c7185573";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then(handleResponse);

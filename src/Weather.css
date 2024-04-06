@@ -20,8 +20,18 @@
 }
 
 .Weather .temperature {
-  font-size: 35px;
+  font-size: 60px;
+}
+.Weather .temperature .unit {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
 }
 .Weather .properties li {
   text-align: center;
+}
+.Weather canvas {
+  margin: 10px auto;
 }
