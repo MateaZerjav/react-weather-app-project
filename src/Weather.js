@@ -3,6 +3,7 @@ import axios from "axios";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Weather.css";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather() {
   const [weather, setWeather] = useState({ ready: false });
@@ -11,6 +12,7 @@ export default function Weather() {
   function handleResponse(response) {
     setWeather({
       ready: true,
+      coordinates: response.data.coord,
       date: new Date(response.data.dt * 1000),
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
@@ -29,7 +31,6 @@ export default function Weather() {
   }
   function handleChange(event) {
     setCity(event.target.value);
-    console.log(city);
   }
 
   function handleSubmit(event) {
@@ -61,6 +62,8 @@ export default function Weather() {
             </div>
           </form>
           <WeatherInfo data={weather} />
+
+          <WeatherForecast coordinates={weather.coordinates} />
         </div>
       </div>
     );

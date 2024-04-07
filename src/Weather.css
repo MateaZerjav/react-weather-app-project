@@ -32,6 +32,3 @@
 .Weather .properties li {
   text-align: center;
 }
-.Weather canvas {
-  margin: 10px auto;
-}
